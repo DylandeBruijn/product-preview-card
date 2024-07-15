@@ -1,0 +1,29 @@
+html,
+body,
+main {
+    min-height: 100vh;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Montserrat', serif;
+    background-color: var(--clr-cream);
+    color: var(--clr-dark-grayish-blue);
+    padding-inline: 1rem;
+}
+
+main {
+    display: grid;
+    place-content: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fraunces', sans-serif;
+    color: var(--clr-black);
+    line-height: 1;
+}
