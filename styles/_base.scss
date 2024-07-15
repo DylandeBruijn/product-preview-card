@@ -7,8 +7,8 @@ main {
 body {
     font-size: 14px;
     font-family: 'Montserrat', serif;
-    background-color: var(--clr-cream);
-    color: var(--clr-dark-grayish-blue);
+    background-color: hsl(var(--clr-body-bg));
+    color: hsl(var(--clr-body));
     padding-inline: 1rem;
 }
 
@@ -24,6 +24,6 @@ h4,
 h5,
 h6 {
     font-family: 'Fraunces', sans-serif;
-    color: var(--clr-black);
+    color: hsl(var(--clr-heading));
     line-height: 1;
 }

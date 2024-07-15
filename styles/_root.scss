@@ -1,8 +1,9 @@
 :root {
-    --clr-black: hsl(0, 0%, 7%);
-    --clr-white: hsl(0, 0%, 100%);
-    --clr-dark-cyan: hsl(158, 36%, 37%);
-    --clr-cream: hsl(30, 38%, 92%);
-    --clr-very-dark-blue: hsl(212, 21%, 14%);
-    --clr-dark-grayish-blue: hsl(228, 12%, 48%);
+    --clr-black: 0, 0%, 7%;
+    --clr-white: 0, 0%, 100%;
+    --clr-primary: 158, 36%, 37%;
+    --clr-primary-hover: 158, 36%, 20%;
+    --clr-body-bg: 30, 38%, 92%;
+    --clr-heading: 212, 21%, 14%;
+    --clr-body: 228, 12%, 48%;
 }
